@@ -1,0 +1,30 @@
+extends ./layout/index
+
+block slider 
+    .slider 
+        h1 Rio de Janeiro 
+        em aventura 
+
+block contenido 
+    main.container.me-5 
+        h2.text-center.mb-5 Sobre Nosotros 
+        .row.mb-5 
+            .col-md-6 
+                p LOREM ASDFASDASDFASDFASDFA ASDF ASFDA SDFASD FASDF ASDF ASDFA SDFASD FASDFADSF ASDFAAFASDFA 
+                P Lorem sadf asdaf sadf asdf asdfasdf asfdasdfa sdfa dfad fasf sdfasd fadf asdf asd fas dfasd
+
+            .col-md-6 
+                img(src="/img/inicio_nosotros.jpg", alt= "img_nosotros", class= "img-fluid")
+
+        include ./layout/bloque-viajes
+
+    .descuento 
+        .container 
+            .row 
+                .col-md-6 
+                    .contenido 
+                        h3 5% de Descuento 
+                        p.titulo Viaje a Canada 
+                        p.fecha 12 de Enero del 2022 - 30 de Enero 2022
+                        p.precio $5000
+                        
